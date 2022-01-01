@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+    overflow: hidden;
+}
+.welcomeScreen-container{
+    background-image: url(../../assets/black.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.welcomeScreen{
+    text-align: center;
+    color:cornsilk;
+    letter-spacing: 1.5px;
+}
+.welcomeScreen h1{
+    padding: 20px;
+}
+.welcomeScreen h2{
+    padding: 10px;
+}
+.welcomeScreen h4 ul{
+    padding: 10px;
+    text-align: -webkit-center;
+}
+.welcomeScreen h4 ul li{
+    cursor: pointer;
+    padding: 15px 0;
+    transition: 0.5s;
+    width: fit-content;
+}
+.welcomeScreen h4 ul li:hover{
+    font-size: 17px;
+    color:khaki;
+}
+
