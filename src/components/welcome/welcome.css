@@ -5,7 +5,7 @@
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
     list-style: none;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 .welcomeScreen-container{
     background-image: url(../../assets/black.jpg);
