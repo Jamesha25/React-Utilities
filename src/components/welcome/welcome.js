@@ -6,8 +6,8 @@ import './welcome.css'
 export default function Welcome() {
     const history = useHistory();
 
-    const gotoNavComponent=()=>{
-        history.push('/nav')
+    const goto=(url)=>{
+        history.push(url)
     }
     
     return (
@@ -17,9 +17,9 @@ export default function Welcome() {
                 <h2>Here you can find codes for the following Components</h2>
                 <h4>
                     <ul>
-                        <li onClick={gotoNavComponent}>Responsive NavBar</li>
-                        <li onClick={gotoNavComponent}>Responsive NavBar</li>
-                        <li onClick={gotoNavComponent}>Responsive NavBar</li>
+                        <li onClick={()=>{goto('/nav')}}>Responsive NavBar</li>
+                        <li onClick={()=>{goto('/search')}}>Search box</li>
+                        <li onClick={()=>{goto('/search')}}>Responsive NavBar</li>
                     </ul>
                 </h4>
             </div>
